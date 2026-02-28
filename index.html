@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sunil | Backend Executive</title>
-    <title>Sunil | Backend Executive, AI Workflow & Research Specialist</title>
+    <title>Sunil Singh | Backend Executive | Data Operations Specialist</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sunil Singh - Backend Executive and Data Operations Specialist based in Noida, India.">
 
     <style>
         :root {
-            --primary: #111827;
-            --secondary: #374151;
+            --primary: #0f172a;
+            --secondary: #475569;
             --accent: #2563eb;
-            --light: #f9fafb;
+            --light: #f8fafc;
             --white: #ffffff;
-            --border: #e5e7eb;
+            --border: #e2e8f0;
         }
 
         * {
@@ -29,19 +29,129 @@
             line-height: 1.7;
         }
 
-@@ -124,86 +124,111 @@
-            text-align: center;
-            padding: 20px;
+        header {
             background: var(--white);
-            margin-top: 40px;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin-left: 20px;
             font-size: 14px;
             color: var(--secondary);
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        section {
+            padding: 80px 8%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 26px;
+            margin-bottom: 30px;
+            color: var(--accent);
+        }
+
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .hero-text {
+            flex: 2;
+        }
+
+        .hero-text p {
+            color: var(--secondary);
+            font-size: 16px;
+        }
+
+        .profile-photo {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .profile-photo img {
+            width: 270px;
+            height: 270px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid var(--accent);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+
+        .card {
+            background: var(--white);
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-bottom: 20px;
+            transition: 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            padding: 8px 16px;
+            border-radius: 20px;
+            background: var(--white);
+            border: 1px solid var(--border);
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: var(--white);
+            margin-top: 50px;
+            font-size: 14px;
+            color: var(--secondary);
+            border-top: 1px solid var(--border);
         }
 
         @media (max-width: 768px) {
             .hero {
                 flex-direction: column;
                 text-align: center;
+            }
+
+            nav {
+                display: none;
             }
         }
     </style>
@@ -55,7 +165,6 @@
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
-        <a href="#innovation">Innovation</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
@@ -64,19 +173,14 @@
     <div class="hero">
         <div class="hero-text">
             <h1>Backend Executive | Data Operations Specialist</h1>
-            <h1>Backend Executive | Data Operations, AI Workflow & Research Specialist</h1>
             <p>
-                Detail-oriented Backend Executive with experience in backend operations,
-                data entry, data verification, moderate data analysis, and process coordination.
-                Skilled in maintaining accuracy, efficiency, and supporting cross-functional teams.
-                Motivated and detail-oriented professional with experience in backend operations,
-                data entry, data verification, and process coordination. I combine operational
-                accuracy with modern AI workflows, research support, and clear documentation to
-                improve speed, quality, and collaboration across teams.
+                Detail-oriented Backend Executive with experience in backend operations, data entry,
+                verification, moderate data analysis, and process coordination. Skilled in maintaining
+                accuracy, improving workflow efficiency, and supporting cross-functional teams in
+                corporate environments.
             </p>
         </div>
 
-        <!-- fad33cf2-112b-471c-8d51-4174ea1df6f3.png -->
         <div class="profile-photo">
             <img src="fad33cf2-112b-471c-8d51-4174ea1df6f3.png" alt="Sunil Singh Profile Photo">
         </div>
@@ -84,23 +188,19 @@
 </section>
 
 <section id="skills">
-    <h2>Core Skills</h2>
+    <h2>Core Competencies</h2>
     <div class="skills-grid">
         <div class="skill">Backend Operations</div>
-        <div class="skill">Data Entry</div>
+        <div class="skill">Data Entry & Verification</div>
         <div class="skill">MS Excel</div>
         <div class="skill">Process Coordination</div>
         <div class="skill">Customer Communication</div>
-        <div class="skill">Documentation Handling</div>
-        <div class="skill">Website Research & Opportunity Hunting</div>
-        <div class="skill">Creative AI Prompting</div>
-        <div class="skill">AI Tools & Workflow Design</div>
-        <div class="skill">Search-Optimized Professional Persona Building</div>
+        <div class="skill">Documentation Management</div>
     </div>
 </section>
 
 <section id="experience">
-    <h2>Experience</h2>
+    <h2>Professional Experience</h2>
 
     <div class="card">
         <h3>Virtual Employee Pvt. Ltd.</h3>
@@ -113,30 +213,11 @@
     </div>
 </section>
 
-<section id="innovation">
-    <h2>AI Innovation, Research & Industry Impact</h2>
-    <div class="card">
-        <p>
-            I actively build practical AI workflows using modern tools to support business
-            outcomes. My focus includes website research and opportunity hunting, creative AI
-            ideation, and building highly searchable professional personas for digital visibility.
-        </p>
-    </div>
-
-    <div class="card">
-        <p>
-            I am motivated to help industries adopt AI in a useful and responsible way by
-            improving productivity, reducing repetitive work, and enabling teams to deliver
-            faster with consistent quality and measurable output.
-        </p>
-    </div>
-</section>
-
 <section id="contact">
     <h2>Contact</h2>
     <p>Email: sunilsingh47689@gmail.com</p>
     <p>Phone: +91 9355324129</p>
-    <p>Location: Noida, India</p>
+    <p>Location: Noida, Uttar Pradesh, India</p>
 </section>
 
 <footer>
